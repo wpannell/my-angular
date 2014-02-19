@@ -1,13 +1,8 @@
-git .DS_Store
-
-*.iws
-.idea/workspace.xml
-.idea/tasks.xml
-
+/.idea
 /node_modules
-
 /dist
 /generated
 
+.DS_Store
 .sass-cache
 libpeerconnection.log
