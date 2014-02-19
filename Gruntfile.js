@@ -21,11 +21,15 @@ module.exports = function(grunt) {
         devel: true
       }
     },
+
     jasmine:{
       unit:{
         src: 'src/**/*.js',
         options:{
-          specs: ['specs/**/*.js']
+          specs: ['specs/**/*.js'],
+          vendor: [
+            'node_modules/lodash/lodash.js',
+            'node_modules/jquery/dist/jquery.js'          ]
         }
       }
     }
