@@ -33,10 +33,7 @@ module.exports = (grunt) ->
 
     watch:
       all:
-        files: [
-          "src/**/*.js"
-          "specs/**/*.js"
-        ]
+        files: "<%= jshint.all %>"
         tasks: ["default"]
 
   grunt.loadNpmTasks "grunt-contrib-jshint"
